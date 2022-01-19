@@ -1,0 +1,78 @@
+body {
+    
+    background-color: #88D9E6;
+}
+
+.control {
+    width: 50%;
+}
+
+.form-control {
+    width: 200px;
+}
+
+.error  {
+    border: 2px solid red;
+}
+
+.navMenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #E9D985;
+  }
+  
+#navItem {
+    float: right;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: #8FA6CB;
+  }
+  
+#navItem a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+#navItem a:hover {
+    background-color: paleturquoise;
+  }
+
+  h1 {
+      text-align: center;
+      color: #F92A82;
+      text-shadow: 2px 2px black;
+      
+  }
+
+  #alertError{
+
+    margin: 1rem auto;
+    color: rgb(78, 1, 1);
+    background-color: rgb(255, 147, 147);
+    width: 250px;
+    padding: 0.3rem;
+    text-align: center;
+    border-radius: 5px;
+  }
+
+  .hide{
+    display: none;
+    color: green;
+  }
+
+  .userInput{
+    margin: 1rem, auto;
+    text-align: center;
+    padding: 12rem;
+  }
+
+  .container{
+    margin-left: 640px;
+    margin-top: 50px;
+  }
